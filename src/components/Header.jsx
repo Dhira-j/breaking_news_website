@@ -18,7 +18,7 @@ const Header = () => {
         />
       </div>
 
-      <nav className="btn-group d-flex flex-wrap w-100">
+      <nav className="btn-group d-flex flex-wrap w-100 header">
         <Link to="/" className="btn btn-lg btn-danger">
           Home
         </Link>

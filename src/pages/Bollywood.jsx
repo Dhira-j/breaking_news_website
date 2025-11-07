@@ -20,7 +20,7 @@ const Bollywood = () => {
 
     return (
         <div>
-            <h1 className="text-center mt-3 mb-3 bg-black text-light">Politics</h1>
+            <h1 className="text-center mt-3 mb-3 bg-black text-light">Bollywood</h1>
             <div className="d-flex flex-wrap gap-3 m-auto">
                 {news.map((item) => (
                     <div key={item.id} className="card" style={{ width: "15rem" }}>
